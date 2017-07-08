@@ -1,0 +1,20 @@
+<suite name="BrowserParallelTesting" parallel="tests">
+	<test name="Parallel testing in Chrome and Firefox--Firefox1">
+		<parameter name="Browser" value="Firefox" />
+		<classes>
+			<class name="MultiBrowserCrossBrowserParallelTesting.MultiBrowserTest" />
+		</classes>
+	</test>
+	<test name="Parallel testing in Chrome and Firefox--Chrome2">
+		<parameter name="Browser" value="chrome" />
+		<classes>
+			<class name="MultiBrowserCrossBrowserParallelTesting.MultiBrowserTest" />
+		</classes>
+	</test>
+	<test name="Parallel testing in Chrome and Firefox--IE3">
+		<parameter name="Browser" value="IE" />
+		<classes>
+			<class name="MultiBrowserCrossBrowserParallelTesting.MultiBrowserTest" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,15 @@
+<suite name="suite">
+	<test name="grouping">
+		<groups>
+			<run>
+				<include name="Car" />
+				<include name="Bike" />
+				<include name="" />
+			</run>
+		</groups>
+		<classes>
+			<class name="Grouping.Grouping1Test" />
+			<class name="Grouping.Grouping2Test" />
+		</classes>
+	</test>
+</suite>

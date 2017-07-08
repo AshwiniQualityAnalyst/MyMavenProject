@@ -1,0 +1,11 @@
+<suite name="Test-Suite">
+	<test name="Tools QA">
+		<classes>
+			<class name="automationFramework.TestNG1Test" />
+			<class name="automationFramework.TestNG2Test" />
+			<class name="automationFramework.TestNG3Test" />
+			<class name="automationFramework.TestNG4Test" />
+			<class name="WindowHandles.SwitchingBetweenTest" />
+		</classes>
+	</test>
+</suite>
